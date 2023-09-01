@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rockpaperscissors</title>
+
+    <script src="javascript.js" async></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -17,17 +19,29 @@
     <div class="game">
       <div class="logos">
         <div class="logo">
-          <img src="rock.png" alt="rock" />
+          <button class="btn" id="rock">
+            <img src="rock.png" alt="rock" />
+          </button>
         </div>
         <div class="logo">
-          <img src="paper.png" alt="paper" />
+          <button class="btn" id="paper">
+            <img src="paper.png" alt="paper" />
+          </button>
         </div>
         <div class="logo">
-          <img src="scissors.png" alt="scissors" />
+          <button class="btn" id="scissors">
+            <img src="scissors.png" alt="scissors" />
+          </button>
         </div>
       </div>
     </div>
-
-    <script src="javascript.js"></script>
+    <div class="text_line">
+      <p class="text" id="player-score">Player Score:</p>
+      <p class="text" id="comp-score">Computer Score:</p>
+    </div>
+    <div>
+      <p class="text" id="output">May the Best Person Win!</p>
+    </div>
+    <footer>Made by: Karuś</footer>
   </body>
 </html>

@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
 
 body {
-  width: 100%;
-  height: 100%;
   background-image: url("background.png");
   overflow: hidden;
-  font-family: Roboto, sans-serif;
-  margin: auto;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 .content {
   display: flex;
@@ -25,11 +25,13 @@ body {
 }
 h1 {
   color: #5beeb5;
-  size: 50px;
+  font-size: 80px;
+  margin-top: -10px;
 }
 h2 {
   color: whitesmoke;
-  size: 30px;
+  font-size: 30px;
+  margin-top: -40px;
 }
 .game {
   display: flex;
@@ -44,4 +46,28 @@ h2 {
 img {
   height: 200px;
   width: 200px;
+  position: relative;
+  left: -25px;
+  top: -22px;
+}
+
+.text_line {
+  display: flex;
+}
+.text {
+  color: whitesmoke;
+  font-size: 30px;
+  flex: 1;
+  margin-left: 100px;
+}
+.btn {
+  outline: none;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  margin-top: 15px;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
